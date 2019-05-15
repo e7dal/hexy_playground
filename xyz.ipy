@@ -1,0 +1,20 @@
+import hexy
+
+p=print
+
+def do(h,f,*a):
+ p(h,f,a)
+ r=f(*a)
+ print(h.show())
+ return r
+
+#h=hexy.Hexy(x=27,y=21)
+#print(h.show())
+h=hexy.Hexy(27,21)
+p(h)
+for d in ['XYZxyz']:
+ do(h.line,(0,0,27,d,d))
+
+
+#%history?
+#%history -f xyz.ipy

@@ -1,0 +1,18 @@
+import hexy
+h=hexy.Hexy(21,13)
+print(h.show())
+#h.draw(2,3,4)
+print(h.show())
+#h.draw(12,9,4)
+print(h.show())
+h.draw(18,9,4)
+print(h.show())
+h.draw(24,5,4)
+print(h.show())
+h.draw(24,3,4)
+print(h.show())
+h.draw(7,3,4)
+print(h.show())
+h.draw(13,3,4)
+print(h.show())
+#%history -f xyz.py
