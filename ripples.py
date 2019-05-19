@@ -5,6 +5,8 @@ from itertools import cycle
 import arrow
 import random
 
+import stop_and_thanks
+
 
 PARR=arrow.now()
 
