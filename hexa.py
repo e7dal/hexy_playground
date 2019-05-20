@@ -2,6 +2,7 @@ import time
 import click
 
 import hexy                                                                                                                               
+import stop_and_thanks
 
 dp='XYZxyz' #directions path
 def dpm(s): # '' multiply
